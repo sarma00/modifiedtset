@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>::SHI</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
+		<script src="js/valiadtions.js"></script>
+		<script src="js/firebasedemo2.js"></script>	
+		<link rel="stylesheet" href="css/mycustomstyles.css" type="text/css">
+	</head>
+	<body>
+		<nav class="navbar navbar-default header">
+			<div class="container-fluid">
+				<h3 class="text-center cmpnyname">SEARS HOLDINGS</h3>
+				<h3 class="text-center cmpnyname">INDIA</h3>
+			</div> <!-- end container fluid -->
+		</nav> <!-- end navbar -->
+		
+		<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-5 col-md-4">
+		<div class="thumbnail">
+			<img src="images/content1.jpg" alt="content1">
+				<div class="caption">
+					<p>Some text will come here Some text will come here Some text will come here Some text will come here</p>        
+				</div>
+		</div>
+		<div class="thumbnail">
+			<img src="images/content1.jpg" alt="content1">
+				<div class="caption">
+					<p>Some text will come here Some text will come here Some text will come here Some text will come here</p>        
+				</div>
+		</div>
+    </div>
+	
+    <div class="col-sm-7">
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>     
+      <h5><span class="glyphicon glyphicon-time"></span> Post on Sep 27, 2015.</h5>
+      <div id="para1" class="newscontent"></div> 
+		<div><span class="label label-warning"><a href="view/display.html#news5">Read More</a></span></div>
+      <hr>     
+      <h5><span class="glyphicon glyphicon-time"></span> Post on Sep 27, 2015.</h5>
+      <div id="para2" class="newscontent"></div>  
+		<div><span class="label label-warning"><a href="view/display.html#news2">Read More</a></span></div>
+      <hr>
+	  <h5><span class="glyphicon glyphicon-time"></span> Post on Sep 27, 2015.</h5>
+      <div id="para3" class="newscontent"></div> 
+<div><span class="label label-warning"><a href="view/display.html#news3">Read More</a></span></div>	  
+      <hr>
+	  <h5><span class="glyphicon glyphicon-time"></span> Post on Sep 27, 2015.</h5>
+      <div id="para4" class="newscontent"></div> 
+<div><span class="label label-warning"><a href="view/display.html#news4">Read More</a></span></div>	  
+      <br>
+    </div>
+  </div>
+</div>
+		<footer class="container-fluid text-center " id="footer">
+			<div class="footer1">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-5 widget">
+						<h3 class="widget-title">Our Details</h3>
+						<div class="widget-body">
+							<p id="contactdetails"> <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> +234 23 9873237<br>
+								<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href=""> support@searshc.com</a><br>
+								<br>
+								<span class="glyphicon glyphicon-home" aria-hidden="true"></span> 234 Hidden Pond Road, Ashland City, TN 37015
+							</p>	
+						</div><br>
+						<h3 class="widget-title">We are Social</h3>
+						<div class="widget-body">
+							<div class="follow-me-icons">
+								<a href=""><i class="fa fa-twitter fa-2"></i></a>
+								<a href=""><i class="fa fa-dribbble fa-2"></i></a>
+								<a href=""><i class="fa fa-linkedin-square"></i></a>
+								<a href=""><i class="fa fa-facebook fa-2"></i></a>
+								<a href=""><i class="fa fa-instagram"></i></a>
+								
+							</div>	
+						</div>
+					</div>
+
+					<div class="col-md-7 widget">
+						<h3 class="widget-title">Feel free to contact us</h3>
+						<div class="widget-body">
+							 <form role="form">
+								<div class="form-group">								  
+								  <input type="text" class="form-control" id="txtname" placeholder="Your Name"><br>
+								  <span id="errorname" class="errordisplay"></span>
+								</div>
+								<div class="form-group">								 
+								  <input type="text" class="form-control" id="txtemail" placeholder="Your Email"><br>
+								  <span id="erroremail" class="errordisplay"></span>
+								</div>
+								<div class="form-group">
+								  
+								  <textarea class="form-control" rows="5" id="comment" placeholder="Your Message"></textarea><br>
+								  <span id="errormsg" class="errordisplay"></span>
+								</div>
+								<div class="form-group">
+								<button type="button" class="btn btn-primary btn-block" onclick="return validateform()"><span class="glyphicon glyphicon-send" aria-hidden="true"></span> Drop a Mail</button>
+								</div>
+								<div class="successmsg" id="success"></div>
+							  </form>
+						</div>
+					</div>
+
+				</div> 
+			</div>
+		</div>
+		</footer>
+		<div class="col-md-12 text-center copyright">Copyright <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> 2016 <a href="">Sears Holdings India</a></div>
+	</body>
+</html>

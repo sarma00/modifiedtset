@@ -1,0 +1,73 @@
+.header{padding:10px 30px 40px 20px;background: linear-gradient(#1B385C,#262345);}
+
+.row.content {height: 450px;}
+
+.sidenav {
+padding-top: 20px;
+padding-right:10px;
+width:280px;
+}
+h1{color:#0B2F6B;}    
+h4{color:#0B2F6B;}  
+      
+footer {
+
+color: white;
+padding: 15px;
+}
+a:link{text-decoration:none;}
+.newsdetail{padding:20px;
+overflow:auto;height:auto;}	
+
+footer{background-color:#01161C;}
+
+.errordisplay{color:red;}
+
+.successmsg{color:green;}
+footer{border-top:1px solid #ccc;
+}
+
+.img-properties{padding:15px;
+display: block;
+margin-left: auto;
+margin-right: auto }
+
+.para-text{padding:5px;}
+
+footer p {color:#666;
+margin:0;
+font-size:11px;
+width:50%;}
+
+footer p.left {float:left; 
+text-align:left;
+font-size:12px;}
+
+footer p.right {float:right; 
+text-align:right;}
+
+.cmpnyname{color:#fff;} 
+
+.divleft{display:inline-block;float:left;}
+
+.newscontent{overflow: hidden;
+max-width: 250ch;
+white-space: nowrap;
+text-overflow: ellipsis;}
+
+.divright{display:inline-block;float:right;}
+
+#contactdetails{margin-left:100px;}
+
+.copyright{color:#fff;background-color:#000;height:40px;padding:5px;}
+
+.text-center{float:center;}
+@media screen and (max-width: 767px) {
+.sidenav {
+height: auto;
+padding: 15px;
+text-align:justify;
+float:center;
+}
+.row.content {height:auto;} 
+}
