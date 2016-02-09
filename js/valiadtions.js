@@ -4,6 +4,9 @@ function validateform(){
 	var email				= "";
 	var name				= "";
 	var message				= "";
+	document.getElementById('errorname').innerHTML="";
+	document.getElementById('erroremail').innerHTML="";
+	document.getElementById('errormsg').innerHTML="";
 	var namereg				= /^[a-zA-Z]+$/;	
 	var emailreg			= /^[-a-z0-9~!$%^&*_=+}{\'?]+(\.[-a-z0-9~!$%^&*_=+}{\'?]+)*@([a-z0-9_][-a-z0-9_]*(\.[-a-z0-9_]+)*\.(aero|arpa|biz|com|coop|edu|gov|info|int|mil|museum|name|net|org|pro|travel|mobi|[a-z][a-z])|([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}))(:[0-9]{1,5})?$/i;
 	 name=document.getElementById('txtname').value;
